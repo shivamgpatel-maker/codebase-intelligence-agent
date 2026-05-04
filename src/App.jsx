@@ -1,6 +1,6 @@
-import { useState } from “react”;
-import { fetchGitHubFiles } from “./agent.js”;
-import Analyze from “./Analyze.jsx”;
+import { useState } from "react";
+import { fetchGitHubFiles } from "./agent.js";
+import Analyze from "./Analyze.jsx";
 
 const C = { blue:”#0071e3”, green:”#28cd41”, orange:”#ff9f0a”, red:”#ff3b30”, purple:”#bf5af2”, teal:”#5ac8fa”, text:”#1d1d1f”, sec:”#6e6e73”, ter:”#aeaeb2”, bg:”#f5f5f7”, surface:”#ffffff” };
 const card = { background: C.surface, borderRadius: 16, padding: 24, boxShadow: “0 2px 20px rgba(0,0,0,0.08)”, cursor: “pointer”, transition: “transform 0.15s, box-shadow 0.15s”, border: “1px solid rgba(0,0,0,0.06)” };
