@@ -45,7 +45,6 @@ return (
 <div style={{ maxWidth: 760, margin: “0 auto”, padding: “28px 16px 60px” }}>
 <button onClick={onBack} style={{ fontSize: 13, color: C.sec, background: “none”, border: “none”, cursor: “pointer”, marginBottom: 20, display: “flex”, alignItems: “center”, gap: 5 }}>← Back</button>
 
-```
   {/* Repo/source label */}
   <div style={{ ...card, display: "flex", alignItems: "center", gap: 12 }}>
     <div style={{ width: 36, height: 36, borderRadius: 8, background: `${C.green}18`, border: `1px solid ${C.green}40`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 16 }}>✓</div>
@@ -127,7 +126,5 @@ return (
     {status === "running" ? <><span style={{ display: "inline-block", width: 14, height: 14, border: "2px solid rgba(255,255,255,0.3)", borderTopColor: "#fff", borderRadius: "50%", animation: "spin 0.7s linear infinite" }} /> Agents running…</> : <>◈ Run Agent Analysis · {files.length} files</>}
   </button>
 </div>
-```
-
 );
 }
