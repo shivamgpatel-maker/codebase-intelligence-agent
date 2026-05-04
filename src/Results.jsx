@@ -38,8 +38,6 @@ return (
 <div style={{ fontSize: 13, color: C.sec, marginTop: 8, lineHeight: 1.6, background: C.bg, borderRadius: 8, padding: “10px 12px” }}>{analysis.finding}</div>
 </div>
 </div>
-
-```
   {/* Tabs */}
   <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>
     {tabs.map(t => (
@@ -162,7 +160,5 @@ return (
     ))}
   </div>
 </div>
-```
-
 );
 }
