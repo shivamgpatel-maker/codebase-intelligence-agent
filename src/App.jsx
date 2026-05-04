@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { fetchGitHubFiles } from "./agent.js";
-import Analyze from "./Analyze.jsx";
+import { useState } from “react”;
+import { fetchGitHubFiles } from “./agent.js”;
+import Analyze from “./Analyze.jsx”;
 
 const C = { blue:”#0071e3”, green:”#28cd41”, orange:”#ff9f0a”, red:”#ff3b30”, purple:”#bf5af2”, teal:”#5ac8fa”, text:”#1d1d1f”, sec:”#6e6e73”, ter:”#aeaeb2”, bg:”#f5f5f7”, surface:”#ffffff” };
 const card = { background: C.surface, borderRadius: 16, padding: 24, boxShadow: “0 2px 20px rgba(0,0,0,0.08)”, cursor: “pointer”, transition: “transform 0.15s, box-shadow 0.15s”, border: “1px solid rgba(0,0,0,0.06)” };
@@ -54,7 +54,6 @@ return (
 <div style={{ minHeight: “100vh”, background: C.bg, fontFamily: “-apple-system,BlinkMacSystemFont,sans-serif” }}>
 <style>{`@keyframes spin{to{transform:rotate(360deg)}} .option-card:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(0,0,0,0.12)!important}`}</style>
 
-```
   {/* Nav */}
   <div style={{ background: "rgba(245,245,247,0.88)", backdropFilter: "blur(20px)", borderBottom: "1px solid rgba(0,0,0,0.08)", padding: "0 24px", position: "sticky", top: 0, zIndex: 100 }}>
     <div style={{ maxWidth: 900, margin: "0 auto", height: 52, display: "flex", alignItems: "center", justifyContent: "space-between" }}>
@@ -203,7 +202,5 @@ return (
     </div>
   )}
 </div>
-```
-
 );
 }
